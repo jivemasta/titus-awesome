@@ -5,7 +5,7 @@ local dpi = require('beautiful').xresources.apply_dpi
 
 local theme = {}
 theme.icons = theme_dir .. '/icons/'
-theme.font = 'Roboto medium 10'
+theme.font = 'Hack NF medium 10'
 
 -- Colors Pallets
 
