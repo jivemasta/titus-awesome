@@ -10,16 +10,12 @@ theme.font = 'Hack NF 10'
 -- Colors Pallets
 
 -- Primary
-theme.primary = mat_colors.indigo
-theme.primary.hue_500 = '#003f6b'
+theme.primary = mat_colors.blue
 -- Accent
-theme.accent = mat_colors.pink
+theme.accent = mat_colors.orange
 
 -- Background
-theme.background = mat_colors.blue_grey
-
-theme.background.hue_800 = '#192933'
-theme.background.hue_900 = '#121e25'
+theme.background = mat_colors.blue
 
 local awesome_overrides = function(theme)
   --

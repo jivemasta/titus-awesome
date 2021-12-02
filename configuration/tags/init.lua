@@ -23,6 +23,12 @@ local tags = {
     screen = 1
   },
   {
+    icon = icons.game,
+    type = 'steam',
+    defaultApp = apps.default.game,
+    screen = 1
+  },
+  {
     icon = icons.folder,
     type = 'files',
     defaultApp = apps.default.files,
