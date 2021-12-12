@@ -26,12 +26,13 @@ return {
   run_on_start_up = {
     'picom --config ' .. filesystem.get_configuration_dir() .. '/configuration/picom.conf',
     'nm-applet --indicator', -- wifi
-    'volumeicon' --Mixer icon in the systray
-    --'blueberry-tray', -- Bluetooth tray icon
+    'volumeicon', --Mixer icon in the systray
+    'blueberry-tray', -- Bluetooth tray icon
     'numlockx on', -- enable numlock
     'xfce4-power-manager', -- Power manager
     'feh --randomize --bg-fill ~/.wallpapers/*',
     '/usr/bin/variety',
+    'cbatticon',
     -- Add applications that need to be killed between reloads
     -- to avoid multipled instances, inside the awspawn script
     '~/.config/awesome/configuration/awspawn' -- Spawn "dirty" apps that can linger between sessions

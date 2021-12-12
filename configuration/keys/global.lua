@@ -321,6 +321,7 @@ local globalKeys =
     'XF86AudioMute',
     function()
       awful.spawn('amixer set Master toggle')
+      awful.spawn('amixer set Speaker toggle')
     end,
     {description = 'toggle mute', group = 'hotkeys'}
   ),
